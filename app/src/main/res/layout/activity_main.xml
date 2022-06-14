@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="32dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_gmailBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:maxLength="32"
+        android:hint="name@gmail.com"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="32dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_themeGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ThemeYourMail"
+        android:maxLength="32"
+        android:maxLines="2"
+        android:layout_marginBottom="32dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_textGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TextYourMail"
+        android:maxLines="17"
+        android:textSize="16sp"
+        android:layout_marginBottom="64dp"
+        />
+
+    <Button
+        android:id="@+id/button_sendMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
